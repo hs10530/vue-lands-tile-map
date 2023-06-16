@@ -9,13 +9,6 @@
 
 ### NFT Metaverse Lands Vue Tile Map Component
 
-## demo
-https://daudxu.github.io/vue-lands-tile-map/
-
-## Preview
-
-![preview](./images/preview.png)
-
 ## Installation
 
 ```
@@ -179,11 +172,9 @@ a {
 
 ```
 
-具体使用可参考[该文件](../../examples/landsTileMap.vue)。
-
 ## Options
 
-| 配置项                  | 值类型   | 描述                                                                          |
+| List                    | Data Type| Description                                                                   |
 | ----------------------- | -------- | ----------------------------------------------------------------------------- |
 | tileMapMapmatrix        | Array    | lands tile Map Mapmatrix                                                      |
 | tiledDigitalColormap    | Array    | Colors corresponding to digital tile maps                                     |
@@ -198,18 +189,3 @@ a {
 | handleClickTile         | function | Click to return to coordinates Returns the coordinates and click event object |
 | handleClickAssignRender | function | render canvas view                                                            |
 | blockCoverage           | function | Merge large block matrices                                                    |
-
-## Features
-
-  - [X] Built for Ethereum using [Web3](https://github.com/ethereum/web3.js/).
-  - [X] Implements [Graph Protocol](https://github.com/graphprotocol) to read blockchain.
-## Changelog
-
-### 2022.02.17
-
-> v0.0.1 \* Matrix, color block, drag
-
-[npm]: https://img.shields.io/npm/v/postcss-load-config.svg
-[npm-url]: https://npmjs.com/package/postcss-load-config
-[node]: https://img.shields.io/node/v/postcss-load-plugins.svg
-[node-url]: https://nodejs.org/
